@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+/* Table section start here */
+.table-sec{
+    padding-top: 80px;
+}
+.difference-table {
+    border-color: rgba(255,255,255,.3);
+    font-weight: 700;
+    color: #fff;
+    box-shadow: 0 0 18.4px 1.6px #1508595e;
+    text-align: center;
+    vertical-align: middle;
+}
+.difference-table tr th:first-child {
+    background: transparent;
+    font-size: 26px;
+}
+.difference-table tr th {
+    background: #150859;
+    font-size: 26px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-width: 0px 1px 1px 1px;
+}
+.difference-table thead{
+    vertical-align: middle;
+}
+.difference-table tr td:first-child{
+    background: #150859;
+    
+}
+.difference-table tr td:first-child h2{
+    font-size: 20px;
+}
+.table>:not(:first-child) {
+    border-top: 1px solid;
+}
+.difference-table thead th{
+    width: 20%;
+}
+.difference-table tr td {
+    width: 20%;
+    padding: 14px 25px;
+}
+.difference-table tr {
+    background: #0b4693;
+}
+.table-bg{
+    background: #1456ac !important;
+}
+.thead{
+    background-color: #150859 !important;
+}
+td{
+    border-width: 1px;
+}
+.close-img{
+    max-width: 30px;
+    margin: auto;
+}
+.ordinateurs-text{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.jusqu{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+.tt{
+    min-height: 20px;
+    background-color: #0b4693;
+}
+.card {
+    border: none;
+}
+/*------------------------------------------------------------------------------- Tablet device ---------------------------------------------------------------------------------------- */
+@media (max-width: 767px) {
+    .difference-table tr td {
+        padding: 14px;
+    }
+    .close-img {
+        max-width: 18px;
+    }
+    .difference-table tr th {
+        font-size: 20px;
+    }
+    .difference-table tr td:first-child h2{
+        font-size: 18px;
+        width: 200px;
+        text-wrap: balance;
+    }
+    .jusqu{
+        font-size: 16px;
+    }
+    .ordinateurs-text{
+        margin-top: 5px;
+    }
+}
+/*------------------------------------------------------------------------------------- mobile device-------------------------------------------------------------------------------------- */
+@media (max-width: 575px){
+    .difference-table tr td:first-child h2{
+        width: 150px;
+        font-size: 16px;
+    }
+}
+
